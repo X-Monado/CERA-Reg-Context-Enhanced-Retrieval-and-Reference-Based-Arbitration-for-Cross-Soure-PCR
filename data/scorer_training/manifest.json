@@ -1,0 +1,728 @@
+{
+  "dataset": "3DMatch",
+  "split": "train",
+  "grouping": "historical sequence groups; physical-scene independence not established",
+  "reference_row": "last",
+  "observations": [
+    {
+      "file": "000.npz",
+      "sha256": "9a631ed025641564f9f525c3563be555314e3efe87474325379d57c08f730447",
+      "group": "7-scenes-chess",
+      "fold": 0,
+      "regional_train": true,
+      "index": 1429,
+      "view": "normal"
+    },
+    {
+      "file": "001.npz",
+      "sha256": "c06a69a57cf1fbd670bae05b5b62c71e86898d15234e8cb08a21c129916406e6",
+      "group": "7-scenes-chess",
+      "fold": 0,
+      "regional_train": true,
+      "index": 1429,
+      "view": "proxy"
+    },
+    {
+      "file": "002.npz",
+      "sha256": "6728e80147311ec27fa31d9ba70cf4d399d286bb9e9ae1de2e067087e448ea1e",
+      "group": "7-scenes-heads",
+      "fold": 1,
+      "regional_train": true,
+      "index": 11133,
+      "view": "normal"
+    },
+    {
+      "file": "003.npz",
+      "sha256": "bb35407bacfa097b627ead2def018c453503b12128f89e15d895d96ebfb28050",
+      "group": "7-scenes-heads",
+      "fold": 1,
+      "regional_train": true,
+      "index": 11133,
+      "view": "proxy"
+    },
+    {
+      "file": "004.npz",
+      "sha256": "b484c2c9d06ec0924ff67af1c74be186f6b8199f899dda224891c26efcfb34c3",
+      "group": "7-scenes-office",
+      "fold": 2,
+      "regional_train": true,
+      "index": 9848,
+      "view": "normal"
+    },
+    {
+      "file": "005.npz",
+      "sha256": "c663b7c2b2d2de57467da36c88d435b3653533c845e0c1dfc58bbfb3dbdcc8d5",
+      "group": "7-scenes-office",
+      "fold": 2,
+      "regional_train": true,
+      "index": 9848,
+      "view": "proxy"
+    },
+    {
+      "file": "006.npz",
+      "sha256": "a45760217562a5c2b0c167a495452d51d34a97970026cee32b0c7aac3733cff1",
+      "group": "7-scenes-pumpkin",
+      "fold": 3,
+      "regional_train": true,
+      "index": 4089,
+      "view": "normal"
+    },
+    {
+      "file": "007.npz",
+      "sha256": "17ff19bf107cdb3c283ac5158976d87356256c1c46f819a005140cb35215e6a2",
+      "group": "7-scenes-pumpkin",
+      "fold": 3,
+      "regional_train": true,
+      "index": 4089,
+      "view": "proxy"
+    },
+    {
+      "file": "008.npz",
+      "sha256": "2df330186ce186a3606e848d78766c5180fd497041e2ba181e5c63e3f116480e",
+      "group": "7-scenes-stairs",
+      "fold": 0,
+      "regional_train": true,
+      "index": 3613,
+      "view": "normal"
+    },
+    {
+      "file": "009.npz",
+      "sha256": "9414e0cd6d35e5f44cf7cfe33902a4a3073709cb53e5cc985fc696ccd1fa0d95",
+      "group": "7-scenes-stairs",
+      "fold": 0,
+      "regional_train": true,
+      "index": 3613,
+      "view": "proxy"
+    },
+    {
+      "file": "010.npz",
+      "sha256": "649b66880c51d36a18b6d4d99510e433c97c0363401a4e6224c1ac6ebdb55d26",
+      "group": "analysis-by-synthesis-apt1-kitchen",
+      "fold": 1,
+      "regional_train": true,
+      "index": 14124,
+      "view": "normal"
+    },
+    {
+      "file": "011.npz",
+      "sha256": "1d0487c4b7b2d6cb8f9c15a0715adb1530b8ff4cbd445fe84374c5342051bab9",
+      "group": "analysis-by-synthesis-apt1-kitchen",
+      "fold": 1,
+      "regional_train": true,
+      "index": 14124,
+      "view": "proxy"
+    },
+    {
+      "file": "012.npz",
+      "sha256": "c9bb1c33cbe43e638407f3345f842e019df7c5cea7e8d8c051eea5ff46d479d4",
+      "group": "analysis-by-synthesis-apt1-living",
+      "fold": 2,
+      "regional_train": true,
+      "index": 841,
+      "view": "normal"
+    },
+    {
+      "file": "013.npz",
+      "sha256": "082dcad5f8ec4225a708bf98c8e1a9e8e9984ed9954f3ce157d46154ab954354",
+      "group": "analysis-by-synthesis-apt1-living",
+      "fold": 2,
+      "regional_train": true,
+      "index": 841,
+      "view": "proxy"
+    },
+    {
+      "file": "014.npz",
+      "sha256": "4dce785ec2e5369a8dbf4a71bc65592a79c6333e34e8248e06fd522e2c9fe98d",
+      "group": "analysis-by-synthesis-apt2-kitchen",
+      "fold": 3,
+      "regional_train": true,
+      "index": 849,
+      "view": "normal"
+    },
+    {
+      "file": "015.npz",
+      "sha256": "7b5099c1317c1b574467d04add23654e99632a43faa5cbb4bbe3722775bcd866",
+      "group": "analysis-by-synthesis-apt2-kitchen",
+      "fold": 3,
+      "regional_train": true,
+      "index": 849,
+      "view": "proxy"
+    },
+    {
+      "file": "016.npz",
+      "sha256": "f75d4b7153ead5a88b1422617221f76f43451d2b5702d20236fc7d42a9c079d1",
+      "group": "analysis-by-synthesis-apt2-living",
+      "fold": 0,
+      "regional_train": true,
+      "index": 13157,
+      "view": "normal"
+    },
+    {
+      "file": "017.npz",
+      "sha256": "2dc9092b9de66f56907db05dd6fad5b896036f06f4368d8c5f95c7c68a394c96",
+      "group": "analysis-by-synthesis-apt2-living",
+      "fold": 0,
+      "regional_train": true,
+      "index": 13157,
+      "view": "proxy"
+    },
+    {
+      "file": "018.npz",
+      "sha256": "21d6e81e3454bfae78f685c332e678b1a4845246577f1dca35f2ebd2d53235bd",
+      "group": "analysis-by-synthesis-apt2-luke",
+      "fold": 1,
+      "regional_train": true,
+      "index": 10423,
+      "view": "normal"
+    },
+    {
+      "file": "019.npz",
+      "sha256": "06f372b12777d972037f11416b091196bcd4a82e112cdb787dec7471b50e919c",
+      "group": "analysis-by-synthesis-apt2-luke",
+      "fold": 1,
+      "regional_train": true,
+      "index": 10423,
+      "view": "proxy"
+    },
+    {
+      "file": "020.npz",
+      "sha256": "428955e528166f9e1e4f4d1e554f56dd3f6c1ad9740b4ffbf6e24529d314ba83",
+      "group": "analysis-by-synthesis-office2-5a",
+      "fold": 2,
+      "regional_train": true,
+      "index": 13186,
+      "view": "normal"
+    },
+    {
+      "file": "021.npz",
+      "sha256": "9cc489f69923df53f56ebdc37c897e5dca19ccd80537d3d524c19f880c95bcbf",
+      "group": "analysis-by-synthesis-office2-5a",
+      "fold": 2,
+      "regional_train": true,
+      "index": 13186,
+      "view": "proxy"
+    },
+    {
+      "file": "022.npz",
+      "sha256": "aeda303e68d6d79859b977427231094e05e5abdcc9eacfba5c392f8ddc44570c",
+      "group": "analysis-by-synthesis-office2-5b",
+      "fold": 3,
+      "regional_train": true,
+      "index": 13904,
+      "view": "normal"
+    },
+    {
+      "file": "023.npz",
+      "sha256": "d87c415e54a9d45296d8c041bfa7d8c432e80fb692a8c16d25d952c0dff172fd",
+      "group": "analysis-by-synthesis-office2-5b",
+      "fold": 3,
+      "regional_train": true,
+      "index": 13904,
+      "view": "proxy"
+    },
+    {
+      "file": "024.npz",
+      "sha256": "6a8c76a7ec82c24c2c391e2e5d5af844a8f815b8cfaf1162fcb3cac51cb3b349",
+      "group": "bundlefusion-apt0_1",
+      "fold": 0,
+      "regional_train": true,
+      "index": 14308,
+      "view": "normal"
+    },
+    {
+      "file": "025.npz",
+      "sha256": "57a81e948c2371bb305e4f5088f4c8bc180b9f1ffa88af793eca2407d7b07b13",
+      "group": "bundlefusion-apt0_1",
+      "fold": 0,
+      "regional_train": true,
+      "index": 14308,
+      "view": "proxy"
+    },
+    {
+      "file": "026.npz",
+      "sha256": "97a199049178b43b310ab48b775897c06f7aa18f951bf6ebdc0ea98c09f8cbbf",
+      "group": "bundlefusion-apt0_2",
+      "fold": 1,
+      "regional_train": true,
+      "index": 9234,
+      "view": "normal"
+    },
+    {
+      "file": "027.npz",
+      "sha256": "31d1b6659d7842df3dc31679e86ec395600daced961eca5b4920aa389cf93419",
+      "group": "bundlefusion-apt0_2",
+      "fold": 1,
+      "regional_train": true,
+      "index": 9234,
+      "view": "proxy"
+    },
+    {
+      "file": "028.npz",
+      "sha256": "ed184db69c47d2c1187e822209dbdb17788e119843d008b8d5b5c536095674d9",
+      "group": "bundlefusion-apt0_3",
+      "fold": 2,
+      "regional_train": true,
+      "index": 2436,
+      "view": "normal"
+    },
+    {
+      "file": "029.npz",
+      "sha256": "f1a662cf4fcefc824c9609a24165ca771af3a09d66b786e5890c34f969a2d906",
+      "group": "bundlefusion-apt0_3",
+      "fold": 2,
+      "regional_train": true,
+      "index": 2436,
+      "view": "proxy"
+    },
+    {
+      "file": "030.npz",
+      "sha256": "ac1bb3ed94f639f95b07cb9a943a021dc0281cd6aa73e320be56f8bb43b45409",
+      "group": "bundlefusion-apt0_4",
+      "fold": 3,
+      "regional_train": true,
+      "index": 1695,
+      "view": "normal"
+    },
+    {
+      "file": "031.npz",
+      "sha256": "abba05353f1478fb1aa62bca5b5545257c61bf3f248c847428fcef25188abb96",
+      "group": "bundlefusion-apt0_4",
+      "fold": 3,
+      "regional_train": true,
+      "index": 1695,
+      "view": "proxy"
+    },
+    {
+      "file": "032.npz",
+      "sha256": "a3e429206e5d19f5c9abc95b67f1fb5839a7a76a86fd5633133f294baee620da",
+      "group": "bundlefusion-apt1_1",
+      "fold": 0,
+      "regional_train": true,
+      "index": 3065,
+      "view": "normal"
+    },
+    {
+      "file": "033.npz",
+      "sha256": "0760ee889f746125521cd8612d826932f3d08c636fb72b8ca87025d48197471a",
+      "group": "bundlefusion-apt1_1",
+      "fold": 0,
+      "regional_train": true,
+      "index": 3065,
+      "view": "proxy"
+    },
+    {
+      "file": "034.npz",
+      "sha256": "4524307778e2bacd9eb68c2a67fd612308cc8177fb96daa0fbb4822b8ef207a6",
+      "group": "bundlefusion-apt1_2",
+      "fold": 1,
+      "regional_train": true,
+      "index": 1205,
+      "view": "normal"
+    },
+    {
+      "file": "035.npz",
+      "sha256": "e498fbd888518afa615dc7214551aa0f907721ebe433da7bce984f83c443d8a9",
+      "group": "bundlefusion-apt1_2",
+      "fold": 1,
+      "regional_train": true,
+      "index": 1205,
+      "view": "proxy"
+    },
+    {
+      "file": "036.npz",
+      "sha256": "81ad45f210edfed6615b2dcabf118e16996a039c61940c9814dfc501b98e969c",
+      "group": "bundlefusion-apt1_3",
+      "fold": 2,
+      "regional_train": true,
+      "index": 9347,
+      "view": "normal"
+    },
+    {
+      "file": "037.npz",
+      "sha256": "4f1eba17259ddc85990b29eed5c4b47a7e83fa9dcea372d04b4d3592c43f3efc",
+      "group": "bundlefusion-apt1_3",
+      "fold": 2,
+      "regional_train": true,
+      "index": 9347,
+      "view": "proxy"
+    },
+    {
+      "file": "038.npz",
+      "sha256": "718a9bdc86af5d5bc0dda61d09870986c81e8d5df3eac221bac1afadcb96b84b",
+      "group": "bundlefusion-apt1_4",
+      "fold": 3,
+      "regional_train": true,
+      "index": 4182,
+      "view": "normal"
+    },
+    {
+      "file": "039.npz",
+      "sha256": "2d0a470982bf047493ed791ca09688c450e0f6de0ab52fba1443d3822ba1a75b",
+      "group": "bundlefusion-apt1_4",
+      "fold": 3,
+      "regional_train": true,
+      "index": 4182,
+      "view": "proxy"
+    },
+    {
+      "file": "040.npz",
+      "sha256": "81c6e1c9d7770135545489bef537feb14e7a60b2041c2ad9103eb380a392dde7",
+      "group": "bundlefusion-apt2_1",
+      "fold": 0,
+      "regional_train": true,
+      "index": 3453,
+      "view": "normal"
+    },
+    {
+      "file": "041.npz",
+      "sha256": "09ffb52a89ab77eabf25eaa439e208468bf15e771b4add6c0a0319017d53b0c7",
+      "group": "bundlefusion-apt2_1",
+      "fold": 0,
+      "regional_train": true,
+      "index": 3453,
+      "view": "proxy"
+    },
+    {
+      "file": "042.npz",
+      "sha256": "bfd6010649960126c0bd030b93c5415f0c74b34bfa1bd25415dfd3b7e65f91ba",
+      "group": "bundlefusion-apt2_2",
+      "fold": 1,
+      "regional_train": true,
+      "index": 2239,
+      "view": "normal"
+    },
+    {
+      "file": "043.npz",
+      "sha256": "5c5852b8ec6cf026e9f86635342a16c9888778f06a234c807bd733b4eca487d6",
+      "group": "bundlefusion-apt2_2",
+      "fold": 1,
+      "regional_train": true,
+      "index": 2239,
+      "view": "proxy"
+    },
+    {
+      "file": "044.npz",
+      "sha256": "a7bb8e3cbfaeb9c619434687fe42abe5f95aa51f047510b22b635c9da5f0bc7f",
+      "group": "bundlefusion-copyroom_1",
+      "fold": 2,
+      "regional_train": true,
+      "index": 7327,
+      "view": "normal"
+    },
+    {
+      "file": "045.npz",
+      "sha256": "edd84041cc788a07cf1093b4e42e6750dfea56c48aa25307f052a76c40e34443",
+      "group": "bundlefusion-copyroom_1",
+      "fold": 2,
+      "regional_train": true,
+      "index": 7327,
+      "view": "proxy"
+    },
+    {
+      "file": "046.npz",
+      "sha256": "0cd0a1ac52f4f10938044e89a5d85704351c6c06540c2d26a4c4160efbe98fe5",
+      "group": "bundlefusion-copyroom_2",
+      "fold": 3,
+      "regional_train": true,
+      "index": 62,
+      "view": "normal"
+    },
+    {
+      "file": "047.npz",
+      "sha256": "8d99c71fb938f52b4377110f7aed2aafc80704a3e506debed8dc53883714617b",
+      "group": "bundlefusion-copyroom_2",
+      "fold": 3,
+      "regional_train": true,
+      "index": 62,
+      "view": "proxy"
+    },
+    {
+      "file": "048.npz",
+      "sha256": "c87f747a6eacd4fdf3e3f5df5166cfb0dcc71b18cd3d21d15ba1ca9e2c8471ab",
+      "group": "7-scenes-chess",
+      "fold": 0,
+      "regional_train": false,
+      "index": 1429,
+      "view": "hard"
+    },
+    {
+      "file": "049.npz",
+      "sha256": "1b2a106502859abd1a1b55fd62ae5beab239aa3e1515df28010580c5da64dc65",
+      "group": "7-scenes-office",
+      "fold": 2,
+      "regional_train": false,
+      "index": 9848,
+      "view": "hard"
+    },
+    {
+      "file": "050.npz",
+      "sha256": "d45f873d754b32a9861dbcd5264d0b47dbd031be9f113dddec612c8cd315ea6c",
+      "group": "analysis-by-synthesis-apt1-kitchen",
+      "fold": 1,
+      "regional_train": false,
+      "index": 14124,
+      "view": "hard"
+    },
+    {
+      "file": "051.npz",
+      "sha256": "a820ce5ed92654f8b6476fbde691b94e22898a50b8084677ed3d728ae9a9affb",
+      "group": "analysis-by-synthesis-apt2-kitchen",
+      "fold": 3,
+      "regional_train": false,
+      "index": 849,
+      "view": "hard"
+    },
+    {
+      "file": "052.npz",
+      "sha256": "0577c8b2851e4352e3a99642c3a986fe6402cb63bbdbc4c5cc558d28bad39fcc",
+      "group": "analysis-by-synthesis-office2-5a",
+      "fold": 2,
+      "regional_train": false,
+      "index": 13186,
+      "view": "hard"
+    },
+    {
+      "file": "053.npz",
+      "sha256": "bc29a0b7635cf53b9624a623d2f6f5dbd64d03f4efa5a9927bbfd0e25a52dbbd",
+      "group": "bundlefusion-apt0_1",
+      "fold": 0,
+      "regional_train": false,
+      "index": 14308,
+      "view": "hard"
+    },
+    {
+      "file": "054.npz",
+      "sha256": "b37d692c5fe0c89f337f233acf12baa1f82faa275ba1fbe11444e3e081a826ba",
+      "group": "bundlefusion-apt0_4",
+      "fold": 3,
+      "regional_train": false,
+      "index": 1695,
+      "view": "hard"
+    },
+    {
+      "file": "055.npz",
+      "sha256": "5d58ea78fae79ea66d5db7919744c6ed856eeccaeb66ef70f7b13b2c63827a44",
+      "group": "bundlefusion-apt1_2",
+      "fold": 1,
+      "regional_train": false,
+      "index": 1205,
+      "view": "hard"
+    },
+    {
+      "file": "056.npz",
+      "sha256": "939ecd9f9d09a5b839addfc3b516f40e67242089744912c1bf912084a8b72f7e",
+      "group": "bundlefusion-apt2_1",
+      "fold": 0,
+      "regional_train": false,
+      "index": 3453,
+      "view": "hard"
+    },
+    {
+      "file": "057.npz",
+      "sha256": "48e37cc50699b0b066e96172e21f9876f2e1183f38dac7508b8f2e6b5cf384eb",
+      "group": "bundlefusion-copyroom_1",
+      "fold": 2,
+      "regional_train": false,
+      "index": 7327,
+      "view": "hard"
+    },
+    {
+      "file": "058.npz",
+      "sha256": "7066e23b96e54a0e4011127de346f5dcf8244db2e4f783f4e971ce44508ff155",
+      "group": "bundlefusion-office0_2",
+      "fold": 0,
+      "regional_train": false,
+      "index": 5906,
+      "view": "hard"
+    },
+    {
+      "file": "059.npz",
+      "sha256": "1cec65b473b84eee39ae56174a3456b2941e48159b7707e323fc316d9adec896",
+      "group": "bundlefusion-office2",
+      "fold": 2,
+      "regional_train": false,
+      "index": 10104,
+      "view": "hard"
+    },
+    {
+      "file": "060.npz",
+      "sha256": "fac9b7cd8d35fb30f5ea4214f86a115dc44f8c9ef453253d3bba03f6cd3f24e0",
+      "group": "rgbd-scenes-v2-scene_01",
+      "fold": 0,
+      "regional_train": false,
+      "index": 6673,
+      "view": "hard"
+    },
+    {
+      "file": "061.npz",
+      "sha256": "1d66378e3cab435e0b95a4f90904b9a6cd28cc14fa33e6a66079430f4c6846d8",
+      "group": "rgbd-scenes-v2-scene_04",
+      "fold": 2,
+      "regional_train": false,
+      "index": 313,
+      "view": "hard"
+    },
+    {
+      "file": "062.npz",
+      "sha256": "0ecf94d4976dc7d90f7139b98aaad091886ab7802a2f12d4df81700973eb7cb9",
+      "group": "rgbd-scenes-v2-scene_06",
+      "fold": 3,
+      "regional_train": false,
+      "index": 9964,
+      "view": "hard"
+    },
+    {
+      "file": "063.npz",
+      "sha256": "1a78f6f769b5d20a450e7fb2376dc789b2f78f5b1c276135e87f1cce4115b8a8",
+      "group": "rgbd-scenes-v2-scene_09",
+      "fold": 0,
+      "regional_train": false,
+      "index": 1600,
+      "view": "hard"
+    },
+    {
+      "file": "064.npz",
+      "sha256": "109bcd2d17676fcc46a57e34805b90f6df40242219472cbbdbcb6f2b210f8657",
+      "group": "rgbd-scenes-v2-scene_14",
+      "fold": 1,
+      "regional_train": false,
+      "index": 12716,
+      "view": "hard"
+    },
+    {
+      "file": "065.npz",
+      "sha256": "1516c2c9f65268970639033b167cb30464bf8645a5999f544919dd7ab687298d",
+      "group": "sun3d-brown_bm_1-brown_bm_1_3",
+      "fold": 2,
+      "regional_train": false,
+      "index": 13510,
+      "view": "hard"
+    },
+    {
+      "file": "066.npz",
+      "sha256": "f07538675fbd38c693dfbab8a2189c6fec9376d6a42193b81110d1ee28b0ae15",
+      "group": "sun3d-brown_cs_2-brown_cs2_1",
+      "fold": 3,
+      "regional_train": false,
+      "index": 6817,
+      "view": "hard"
+    },
+    {
+      "file": "067.npz",
+      "sha256": "69dd761d4d0be6cef89d186f82797064b9594874b548640a095ce49f3e351555",
+      "group": "7-scenes-chess",
+      "fold": 0,
+      "regional_train": false,
+      "index": 4751,
+      "view": "hard"
+    },
+    {
+      "file": "068.npz",
+      "sha256": "a00563bf510eb9990657a98b91056b8b9528e6474cf05db8374792654c844c61",
+      "group": "7-scenes-office",
+      "fold": 2,
+      "regional_train": false,
+      "index": 12533,
+      "view": "hard"
+    },
+    {
+      "file": "069.npz",
+      "sha256": "d64cc58b50e240064e7a743d55b153f6674f29f81dc0be1b5234feaf55d5d4ae",
+      "group": "analysis-by-synthesis-apt1-kitchen",
+      "fold": 1,
+      "regional_train": false,
+      "index": 10654,
+      "view": "hard"
+    },
+    {
+      "file": "070.npz",
+      "sha256": "6fabe08df15df6a5ce67112914367063d745107da9a26002166bca58359d3ab9",
+      "group": "analysis-by-synthesis-apt2-living",
+      "fold": 0,
+      "regional_train": false,
+      "index": 6727,
+      "view": "hard"
+    },
+    {
+      "file": "071.npz",
+      "sha256": "e92cde71058f74c29900aa43d9a0c993b0e0700beb2a394fbb01d49646de7b86",
+      "group": "analysis-by-synthesis-office2-5a",
+      "fold": 2,
+      "regional_train": false,
+      "index": 10305,
+      "view": "hard"
+    },
+    {
+      "file": "072.npz",
+      "sha256": "87231a895c9405e07719f78f8570d95c1c7865bfc1d2de6650528b36fdb10798",
+      "group": "bundlefusion-apt0_2",
+      "fold": 1,
+      "regional_train": false,
+      "index": 3836,
+      "view": "hard"
+    },
+    {
+      "file": "073.npz",
+      "sha256": "6925d2a1d5da4e8ffe1ba7a04a095b7a96f15dbd15c38dc1e3cb187d3c4d6b27",
+      "group": "bundlefusion-apt0_4",
+      "fold": 3,
+      "regional_train": false,
+      "index": 3136,
+      "view": "hard"
+    },
+    {
+      "file": "074.npz",
+      "sha256": "7f71a48b10df5ea8f6901fcd8cde3c0aec3857f007b90898f3e2bd3ed83d7410",
+      "group": "bundlefusion-apt1_3",
+      "fold": 2,
+      "regional_train": false,
+      "index": 8777,
+      "view": "hard"
+    },
+    {
+      "file": "075.npz",
+      "sha256": "1e8284bc1ee6c31affa3095fed1feace1dde88c492f0872d0e36f059bf4271ce",
+      "group": "bundlefusion-apt2_1",
+      "fold": 0,
+      "regional_train": false,
+      "index": 13960,
+      "view": "hard"
+    },
+    {
+      "file": "076.npz",
+      "sha256": "0227014da49a3b83989f65ad14df477bde7224f4f4536f98757240ac196b89f2",
+      "group": "bundlefusion-copyroom_2",
+      "fold": 3,
+      "regional_train": false,
+      "index": 13524,
+      "view": "hard"
+    },
+    {
+      "file": "077.npz",
+      "sha256": "5faec9831c0d0dd8989abd4c46e527d72df5b5a0062ae1ba268868e4e5aff6ff",
+      "group": "bundlefusion-office1_1",
+      "fold": 1,
+      "regional_train": false,
+      "index": 3575,
+      "view": "hard"
+    },
+    {
+      "file": "078.npz",
+      "sha256": "633a01e010cdf399989e7557e649604ce1433b9e718209e32a9cd3636ac4ce48",
+      "group": "bundlefusion-office3",
+      "fold": 3,
+      "regional_train": false,
+      "index": 8661,
+      "view": "hard"
+    },
+    {
+      "file": "079.npz",
+      "sha256": "99e75aee8049feaa48e02ba3c0d561c488d0b85f8ba1eabc338dadcb0e767bd7",
+      "group": "rgbd-scenes-v2-scene_03",
+      "fold": 1,
+      "regional_train": false,
+      "index": 14214,
+      "view": "hard"
+    }
+  ]
+}
