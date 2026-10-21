@@ -1,0 +1,52 @@
+Adopted manuscript profile (2026-10-17)
+
+Encoder: archived encoder.pth.tar, MDB=True, FiLM=True; robust_density=False,
+propagate_density=False, structure.enabled=False. Historical checkpoint names are preserved
+only in provenance. Encoder parameters stay frozen during scorer fitting and inference.
+
+Input: shared observed r90 contraction when clipped scale < 1; otherwise native input.
+This does not estimate unknown relative scale. CSR voxel size .025 m in processing coordinates;
+point limit 30000. Coarse resource guard: if either side exceeds 2048 superpoints, use at most
+1536 per side and rebuild coarse neighborhoods. Main CSR seed: 7351.
+
+Joint descriptors: normalized fine256 + contextual256. Bidirectional 512-query Top8 retrieval,
+deduplicated by endpoint pair; no mutual-nearest restriction, at most8192 pairs.
+Candidate generation: compatibility sigma .15, seed +63 neighbors,10 power iterations,
+at most16 endpoint-unique members, at least6 and second singular value >1e-5.
+Every valid generated fit is retained. Some inherited CONFIG dictionaries retain fields
+used by older diagnostics (e.g. pose_budget=24); generate() does not use this shortlist.
+
+Reference: fixed geometry/feature verification with at most3 dense calls plus at most1
+sparse–dense rescue. Tb/Tv/T0 are distinct from the original GeoTransformer comparator.
+Global evidence40, regional64; the regional branch input is [global;regional], not regional
+alone. Relative inputs120/312, second stage174. Final choice is from protected branch
+nominees plus T0. Reference-centered utility >.02 and risk <.1 are required for replacement.
+No pose averaging and no half-step refinement are included.
+
+Labels (source training only):
+J=I(RRE<15°,RTE<.30m)+.5 I(RRE<10°,RTE<.20m)+.25 I(RRE<5°,RTE<.10m)
+  +.1 exp[-max(RRE/15,RTE/.30)].
+Target=J(candidate)-J(T0)-2*harm; harm means loss of any previously satisfied accuracy tier.
+Training observations differ between the archived global and global+regional branches;
+their existing rows must not be interpreted as a matched-training regional-feature ablation.
+
+Evaluation: CSR strict RRE<15°, RTE<30cm; correspondence inlier distance<10cm;
+FMR uses IR>=5%. Successful-pair errors and success rates must be reported together.
+3DMatch/3DLoMatch require official scene-macro RR and information-matrix eligibility;
+do not substitute the CSR angle/translation threshold. Local fine IR/FMR and global retrieval
+IR use different interfaces. The raw-pair demo does not itself compute benchmark scores.
+
+Current checks: source-symbol equality, CPU geometric sanity, encoder checkpoint loading,
+global/regional evidence shape, and archived-cache scorer parity. CPU parity does not replace
+a complete GPU benchmark replay after packaging. The original complete evaluations remain
+the evidence for the manuscript numbers. Repeated development exposure of 3DCSR and unresolved
+physical-scene fold auditing remain explicit limitations.
+
+Release preparation 2026-10-18: environment name CERA-Reg; English README.md; source-only scorer-fitting CLI and resumable 3DCSR pose evaluator added. Training evidence exported with hashes; raw-data encoder retraining and official same-source launcher are not yet packaged. See provenance/release_preparation_20261018.json.
+
+Documentation review 2026-10-21: asset extraction now precedes model checks;
+same-source partial IR/FMR coverage is explicit in README.md and results/README.md.
+Experimental epoch checkpoints are not adopted weights. Public portable verification
+records are in provenance/release_readiness_20261021.json. The older preparation
+record above is a local historical file excluded from the public snapshot.
+See RELEASE.md for separate source/asset upload instructions and validation scope.
