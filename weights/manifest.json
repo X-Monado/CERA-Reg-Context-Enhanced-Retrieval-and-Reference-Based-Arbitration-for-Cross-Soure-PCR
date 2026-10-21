@@ -1,0 +1,22 @@
+{
+  "encoder.pth.tar": {
+    "sha256": "7acbe942fbb63f6afb74f3cc28ef932e072a074fec9c14cddf13f8a2fd67e933",
+    "bytes": 171641261,
+    "source_archive_name": "run8_checkpoint.pth.tar"
+  },
+  "global_teacher.joblib": {
+    "sha256": "5a6e25f961d2b52d8594cd3edf9d2993660bb478a0579ede7de886508c38dd6b",
+    "bytes": 1846009,
+    "source_archive_name": "global_teacher.joblib"
+  },
+  "regional_teacher.joblib": {
+    "sha256": "12269479b01a21e26295e555e88b1e59efed12998d1594c59c376f8aeee3c4d4",
+    "bytes": 1773561,
+    "source_archive_name": "regional_teacher.joblib"
+  },
+  "arbiter.joblib": {
+    "sha256": "d3fe12b73a1af9db0b8187a4f34648020e97ef723263e822fa05f46190967360",
+    "bytes": 959609,
+    "source_archive_name": "arbiter.joblib"
+  }
+}
