@@ -1,4 +1,3 @@
-# CERA-Reg-Context-Enhanced-Retrieval-and-Reference-Based-Arbitration-for-Cross-Soure-PCR
 # CERA-Reg
 
 **Context-Enhanced Retrieval and Reference-Based Arbitration for Cross-Source Point Cloud Registration**
@@ -89,7 +88,7 @@ python scripts/evaluate_3dcsr.py --category kinect_lidar --output output/lidar -
 
 
 
-## Train the scorers (CPU)
+## Train the scorers 
 
 Place the prepared source evidence archive under `data/scorer_training/`:
 
